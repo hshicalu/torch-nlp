@@ -13,4 +13,4 @@ Qiitaの記事を参考にします
 | [PyTorchでSelf Attentionによる文章分類を実装してみた](https://qiita.com/m__k/items/98ff5fb4a4cb4e1eba26) |<li>[ ] </li>|
 | [PyTorchで日本語BERTによる文章分類＆Attentionの可視化を実装してみた](https://qiita.com/m__k/items/e312ddcf9a3d0ea64d72) |<li>[ ] </li>|  
 
-@m_kさんに感謝  
+[@m_kさん](https://qiita.com/m__k)に感謝  
