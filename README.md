@@ -1,2 +1,2 @@
-# PyTorchを使って自然言語処理の勉強をするrepository
+# PyTorchを使って自然言語処理の勉強をする
 Qiitaの記事を参考にします
