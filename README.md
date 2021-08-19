@@ -17,7 +17,7 @@ Qiitaの記事を参考にします
 
 ### tips
 1. datasetを作るのはColabでは時間がかかるので、予めCSVとして保存しておく  
-`datasets.ipynb`を参照    
+詳しくは、`datasets.ipynb`を参照    
 2. 保存したCSVの読み込みと必要な変数の定義
 ```
 datasets = pd.read_csv("/content/drive/MyDrive/...{カスタマイズ}.../datasets.csv")
