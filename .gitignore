@@ -1,0 +1,13 @@
+# General
+nohup.out
+.DS_Store
+.vscode/
+ldcc-20140209.tar.gz
+text/
+# Python-related
+.ipynb_checkpoints/
+__pycache__/
+
+# direnv
+.envrc
+
