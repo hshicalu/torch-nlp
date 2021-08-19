@@ -14,3 +14,12 @@ Qiitaの記事を参考にします
 | [PyTorchで日本語BERTによる文章分類＆Attentionの可視化を実装してみた](https://qiita.com/m__k/items/e312ddcf9a3d0ea64d72) |<li>[ ] </li>|  
 
 [@m_kさん](https://qiita.com/m__k)に感謝  
+
+### tips
+datasetを作るのはColabでは時間がかかるので、予めCSVとして保存しておく  
+`datasets.ipynb`を参照    
+保存したCSVの読み込みと必要な変数の定義
+```
+datasets = pd.read_csv("/content/drive/MyDrive/...{カスタマイズ}.../datasets.csv")
+categories = set(datasets["category"])
+```
