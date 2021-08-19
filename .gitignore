@@ -3,7 +3,7 @@ nohup.out
 .DS_Store
 .vscode/
 ldcc-20140209.tar.gz
-text/
+datasets.csv
 # Python-related
 .ipynb_checkpoints/
 __pycache__/
