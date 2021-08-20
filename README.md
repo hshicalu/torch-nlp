@@ -23,6 +23,11 @@ Qiitaの記事を参考にします
 datasets = pd.read_csv("/content/drive/MyDrive/...{カスタマイズ}.../datasets.csv")
 categories = set(datasets["category"])
 ```
+3. Colabでドライブをマウントするおまじない
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
 
 ### notionの学習メモ
 https://hicalu.notion.site/PyTorch-0461e9b277e74ebeb2bd16af165ae328
