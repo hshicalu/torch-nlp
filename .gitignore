@@ -4,6 +4,7 @@ nohup.out
 .vscode/
 ldcc-20140209.tar.gz
 datasets.csv
+datasets.ipynb
 # Python-related
 .ipynb_checkpoints/
 __pycache__/
