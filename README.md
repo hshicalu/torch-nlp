@@ -6,7 +6,7 @@ Qiitaの記事を参考にします
 | タイトル | チェック |
 |---- | :----: |
 | [PyTorchを使ってLSTMで文章分類を実装してみた](https://qiita.com/m__k/items/841950a57a0d7ff05506) |<li>[x] </li>|
-| [PyTorchを使ってLSTMで文章分類を実装してみた（バッチ化対応ver）](https://qiita.com/m__k/items/db1a81bb06607d5b0ec5) |<li>[ ] </li>|
+| [PyTorchを使ってLSTMで文章分類を実装してみた（バッチ化対応ver）](https://qiita.com/m__k/items/db1a81bb06607d5b0ec5) |<li>[x] </li>|
 | [PyTorchでSeq2Seqを実装してみた](https://qiita.com/m__k/items/b18756628575b177b545) |<li>[ ] </li>|
 | [PyTorchでAttention Seq2Seqを実装してみた](https://qiita.com/m__k/items/646044788c5f94eadc8d) |<li>[ ] </li>|
 | [PyTorchのBidirectional LSTMのoutputの仕様を確認してみた](https://qiita.com/m__k/items/78a5125d719951ca98d3) |<li>[ ] </li>|
@@ -17,9 +17,17 @@ Qiitaの記事を参考にします
 
 ### tips
 1. datasetを作るのはColabでは時間がかかるので、予めCSVとして保存しておく  
-`datasets.ipynb`を参照    
+詳しくは、`datasets.ipynb`を参照    
 2. 保存したCSVの読み込みと必要な変数の定義
 ```
 datasets = pd.read_csv("/content/drive/MyDrive/...{カスタマイズ}.../datasets.csv")
 categories = set(datasets["category"])
 ```
+3. Colabでドライブをマウントするおまじない
+```
+from google.colab import drive
+drive.mount('/content/drive')
+```
+
+### notionの学習メモ
+https://hicalu.notion.site/PyTorch-0461e9b277e74ebeb2bd16af165ae328
