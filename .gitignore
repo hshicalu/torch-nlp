@@ -5,6 +5,9 @@ nohup.out
 ldcc-20140209.tar.gz
 datasets.csv
 datasets.ipynb
+torch-lstm.ipynb
+torch-lstm-batch.ipynb
+
 # Python-related
 .ipynb_checkpoints/
 __pycache__/
