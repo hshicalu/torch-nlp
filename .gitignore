@@ -7,7 +7,7 @@ datasets.csv
 datasets.ipynb
 torch-lstm.ipynb
 torch-lstm-batch.ipynb
-
+torch-attention.ipynb
 # Python-related
 .ipynb_checkpoints/
 __pycache__/
