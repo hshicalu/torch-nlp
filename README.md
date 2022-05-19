@@ -13,7 +13,7 @@ Qiitaの記事を参考にします
 | [PyTorchでSelf Attentionによる文章分類を実装してみた](https://qiita.com/m__k/items/98ff5fb4a4cb4e1eba26) |<li>[ ] </li>|
 | [PyTorchで日本語BERTによる文章分類＆Attentionの可視化を実装してみた](https://qiita.com/m__k/items/e312ddcf9a3d0ea64d72) |<li>[ ] </li>|  
 
-[@m_kさん](https://qiita.com/m__k)に感謝  
+[@m_kさん](https://qiita.com/m__k)の記事を参考  
 
 ### tips
 1. datasetを作るのはColabでは時間がかかるので、予めCSVとして保存しておく  
@@ -28,6 +28,3 @@ categories = set(datasets["category"])
 from google.colab import drive
 drive.mount('/content/drive')
 ```
-
-### notionの学習メモ
-https://hicalu.notion.site/PyTorch-0461e9b277e74ebeb2bd16af165ae328
